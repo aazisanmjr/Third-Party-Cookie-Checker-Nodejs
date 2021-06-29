@@ -6,7 +6,7 @@
 4. http://127.0.0.1:3000/setcookie this endpoint will set cookie! on first run by default it'll not return the cookie it will return false so we will check cookie is saved or not by  fetching http://127.0.0.1:3000/getcookie this endpoint
 
 # Example in implementing in React front end
-` 
+```js
     // fetchCookie will check if we should run the get cookie
     const [fetchCookie, setFetchCookie] = useState(false);
     //Third Party cookies are enables or not will check TPCookieDisabled 
@@ -49,5 +49,4 @@
               }
             })
         }
-    `
-    
+    ```
